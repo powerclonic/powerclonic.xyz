@@ -72,5 +72,16 @@ body {
     }
 }
 
+.botao {
+    height: 4rem;
+    text-decoration: none;
+}
 
+.efeito-neon:hover {
+    transition-property: background box-shadow transform;
+    transition-duration: .5s;
 
+    background-color: var(--cinza-50)!important;
+    transform: scale(1.025);
+    box-shadow: 0 0 20px var(--vermelho), 0 0 5px var(--laranja);
+}

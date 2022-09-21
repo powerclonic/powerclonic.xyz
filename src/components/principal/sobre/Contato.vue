@@ -17,11 +17,10 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import BotaoSocial from './BotaoSocial.vue';
 
-import EmailIcon from '@/assets/icons/email.svg';
-import LinkedinIcon from '@/assets/icons/linkedin.svg';
+import EmailIcon from '@/assets/icons/sociais/email.svg';
+import LinkedinIcon from '@/assets/icons/sociais/linkedin.svg';
+import BotaoSocial from '../../shared/BotaoSocial.vue';
 
 </script>
 

@@ -32,14 +32,14 @@
 </template>
 
 <script setup>
-import BotaoSocial from '../BotaoSocial.vue';
 
-import TwitterIcon from '@/assets/icons/twitter.svg';
-import InstagramIcon from '@/assets/icons/instagram.svg';
-import DiscordIcon from '@/assets/icons/discord.svg';
-import YoutubeIcon from '@/assets/icons/youtube.svg';
-import SteamIcon from '@/assets/icons/steam.svg';
-import SpotifyIcon from '@/assets/icons/spotify.svg';
+import TwitterIcon from '@/assets/icons/sociais/twitter.svg';
+import InstagramIcon from '@/assets/icons/sociais/instagram.svg';
+import DiscordIcon from '@/assets/icons/sociais/discord.svg';
+import YoutubeIcon from '@/assets/icons/sociais/youtube.svg';
+import SteamIcon from '@/assets/icons/sociais/steam.svg';
+import SpotifyIcon from '@/assets/icons/sociais/spotify.svg';
+import BotaoSocial from '../../shared/BotaoSocial.vue';
 
 </script>
 
