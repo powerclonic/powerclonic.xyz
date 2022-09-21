@@ -1,0 +1,76 @@
+*:root {
+    --vermelho: #C62C2C;
+    --vermelho-claro: #ED2938;
+    --laranja: #FF8C01;
+    --cinza: #333333;
+    --preto: #06060d;
+
+    --vermelho-25: #C62C2C40;
+    --vermelho-claro-25: #ED293840;
+    --laranja-25: #FF8C0140;
+    --cinza-25: #33333340;
+    --preto-25: #06060d40;
+
+    --vermelho-50: #C62C2C80;
+    --vermelho-claro-50: #ED293880;
+    --laranja-50: #FF8C0180;
+    --cinza-50: #33333380;
+    --preto-50: #06060d80;
+
+}
+
+.bg-vermelho {
+    background-color: var(--vermelho)!important;
+}
+
+.bg-vermelho-claro {
+    background-color: var(--vermelho-claro)!important;
+}
+
+.bg-laranja {
+    background-color: var(--laranja)!important;
+}
+
+.bg-cinza {
+    background-color: var(--cinza)!important;
+}
+
+.bg-preto {
+    background-color: var(--preto)!important;
+}
+
+.bg-cinza-25 {
+    background-color: var(--cinza-25)!important;
+}
+
+.bg-cinza-50 {
+    background-color: var(--cinza-50)!important;
+}
+
+.text-justify {
+    text-align: justify!important;
+}
+
+body {
+    background-color: var(--preto);
+    min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: var(--preto);
+        min-height: 100vh;
+        padding: 1rem 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-color: var(--preto);
+        min-height: 100vh;
+        padding: 1rem 10rem;
+    }
+}
+
+
+
