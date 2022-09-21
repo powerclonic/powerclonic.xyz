@@ -2,7 +2,7 @@
     <section class="container-fluid py-3">
         <section class="row mb-3">
             <section class="col-12 col-lg-6 p-3 p-lg-0 pe-lg-2">
-                <SobreMim />
+                <Sobre />
             </section>
             <section class="col-12 col-lg-6 p-3 p-lg-0 ps-lg-2">
                 <RedesSociais />
@@ -30,6 +30,7 @@ import RedesSociais from './sobre/RedesSociais.vue';
 import Projetos from './sobre/Projetos.vue';
 import Contato from './sobre/Contato.vue';
 import Conhecimentos from './sobre/Conhecimentos.vue';
+import Sobre from './sobre/Sobre.vue';
 
 
 </script>
